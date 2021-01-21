@@ -1,0 +1,66 @@
+.trust {
+    min-height: 260px;
+    position: relative;
+    &::after{
+        content: "";
+            position: absolute;
+            width: 1298px;
+            height: 2px;
+            background-color: #4d4d4d;
+            top: 250px;
+            left: 306px;
+    }
+    & .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    &__title{
+        color: #ffffff;
+        font-size: 37px;
+        font-weight: 700;
+        line-height: 61.92px;
+        margin-bottom: 45px;
+    }
+    &__slider{
+        width: 1197px;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        align-items: center;
+        align-content: center;
+        &::before {
+            content: "";
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            border-bottom: 2px solid #ffffff;
+            border-left: 2px solid #ffffff;
+            transform: rotate(45deg);
+            left: -85px;
+            top: 40px;
+        }
+        &::after {
+            content: "";
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            border-bottom: 2px solid #ffffff;
+            border-left: 2px solid #ffffff;
+            transform: rotate(-134deg);
+            right: -85px;
+            top: 40px;
+        }
+    }
+    &__slider-item {
+        list-style: none;
+        & a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+        }
+    }
+}

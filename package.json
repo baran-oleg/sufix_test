@@ -1,0 +1,21 @@
+{
+  "name": "sufix_test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html --no-source-maps --no-cache"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-clean-easy": "^1.0.2",
+    "sass": "^1.32.5"
+  },
+  "dependencies": {
+    "jshint": "^2.12.0"
+  },
+  "parcelCleanPaths": [
+    "dist"
+  ]
+}
