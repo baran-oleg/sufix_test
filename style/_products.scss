@@ -17,15 +17,17 @@
         text-transform: uppercase;
         margin-bottom: 29px;
         color: #ffffff;
+        font-family: 'Segoe UI Regular';
     }
     &__text {
         font-size: 19px;
-        width: 942px;
+        // width: 942px;
         font-weight: 400;
         text-align: center;
         line-height: 26px;
         margin-bottom: 46px;
         color: #ffffff;
+        font-family: 'Segoe UI Regular';
     }
     &__list {
         display: flex;
@@ -90,6 +92,7 @@
     }
     &__item-title{
         color: #ffffff;
+        font-family: 'Segoe UI Bold';
         font-size: 25px;
         font-weight: 400;
         line-height: 37.99px;
@@ -103,6 +106,7 @@
         font-size: 19px;
         font-weight: 400;
         line-height: 57.6px;
+        font-family: 'Segoe UI Bold';
         text-transform: uppercase;
     }
     &__item-text{
@@ -113,6 +117,7 @@
         line-height: 24.3px;
         text-align: center;
         margin-bottom: 20px;
+        font-family: 'Segoe UI Regular';
     }
     &__item-btn{
         height: 33px;
@@ -120,6 +125,7 @@
         background-color: #e6362c;
         color: #ffffff;
         border: 1px solid #e6362c;
+        font-family: 'Segoe UI Regular';
         font-size: 14px;
         font-weight: 400;
         text-transform: uppercase;

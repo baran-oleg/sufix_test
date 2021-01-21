@@ -11,9 +11,10 @@
         color: #ffffff;
         font-size: 37px;
         font-weight: 400;
-        
+        font-family: 'Segoe UI Regular';
     }
     &__title{
+        font-family: 'Segoe UI Bold';
         color: #ffffff;
         font-size: 69px;
         font-weight: 400;
@@ -28,6 +29,7 @@
         width: 471px;
         line-height: 32.05px;
         margin-bottom: 39px;
+        font-family: 'Segoe UI Regular';
     }
     &__btn{
         width: 172px;
@@ -35,6 +37,7 @@
         background-color: #e6362c;
         border: 1px solid #e6362c;
         color: #ffffff;
+        font-family: 'Segoe UI Regular';
         font-size: 18px;
         font-weight: 400;
         text-transform: uppercase;
@@ -102,6 +105,7 @@
         align-items: center;
         align-content: center;
         & h2 {
+            font-family: 'Segoe UI Bold';
             margin-top: 23px;
             color: #ffffff;
             font-size: 25px;
@@ -110,6 +114,7 @@
         }
         & p {
             margin-top: 22px;
+            font-family: 'Segoe UI Regular';
             color: #ffffff;
             font-size: 19px;
             font-weight: 400;

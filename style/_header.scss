@@ -29,7 +29,7 @@
         }
     }
     &__contact {
-        width: 230px;
+        width: 205px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -41,6 +41,7 @@
     }
     &__work-hours {
         color: #e6362c;
+        font-family: 'Segoe UI Regular';
         font-size: 12px;
         font-weight: 400;
         text-transform: uppercase;
@@ -51,10 +52,12 @@
             border: none;
             outline: none;
             font-size: 21px;
+            font-family: 'Segoe UI Regular';
             color: #ffffff;
             background-color: black;
             & > option {
                 font-size: 21px;
+                font-family: 'Segoe UI Regular';
                 color: black;
                 background-color: #ffffff;
                 
@@ -173,14 +176,16 @@
         
         &:nth-child(3) > span,
         &:nth-child(4) > span {
+            font-family: 'Clear Sans Regular';
             color: #ffffff;
             font-size: 19px;
             font-weight: 400;
+            text-transform: uppercase;
             position: relative;
             &::after{
             position: absolute;
             content: "";
-            left: 97px;
+            left: 110px;
             top: 7px;
             width: 6px;
             height: 6px;
@@ -215,6 +220,7 @@
                     list-style: none;
                     &> a {
                        text-decoration: none;
+                       font-family: 'Clear Sans Regular';
                         font-size: 21px;
                         color: black;
                         &:hover {
@@ -259,6 +265,7 @@
 
     &__menu-item {
             text-decoration: none;
+            font-family: 'Clear Sans Regular';
             color: #ffffff;
             font-size: 19px;
             font-weight: 400;
